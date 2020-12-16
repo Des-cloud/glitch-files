@@ -1,0 +1,118 @@
+
+.contact{
+  margin: 5% auto 10%;
+}
+
+.form-contact {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-left: 10%;
+}
+
+h1, .title {
+  color: #264653;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.title{
+  margin-top: 2%;
+}
+.form-contact .form-control {
+  position: relative;
+  display: inline-block;
+  width: 600px;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form-contact .form-control:focus {
+  z-index: 2;
+}
+
+.row-logo{
+  margin: 7% auto 7%;
+}
+.contact-logo{
+  max-width: 100%;
+}
+
+label {
+  margin-bottom: 2px;
+  text-align: right;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  background-color: #E63946;
+  color: #ececec;
+  float: left;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+
+  .contact{
+    margin: 5% auto 10%;
+  }
+
+  .btn {
+    display: block;
+  }
+  
+  .form-contact {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-left: 1%;
+}
+  
+  .form-contact .form-control {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+  label {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .msg {
+    margin-left: auto;
+    color: #E63946;
+    font-size: 12px;
+  }
+  
+  h1, .title {
+  color: #264653;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+  
+  .row-logo{
+  margin: 7% auto 5%;
+}
+.contact-logo{
+  max-width: 100%;
+}
+  
+}
