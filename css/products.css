@@ -1,0 +1,123 @@
+
+label {
+  width: 100px;
+  text-align: left;
+/*   margin-right: 20px; */
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2, h5 {
+  margin-left: 25%;
+  color: #264653;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  margin-left: 50%;
+  background-color: #E63946;
+  color: #ececec;
+}
+
+.products{
+  margin: 5% 0 15% 2%;
+}
+
+.analysis{
+  margin: 5% 2% 15% 2%;
+}
+
+.form-products {
+  padding: 10px;
+}
+
+.form-control {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form-products .form-control:focus {
+  z-index: 2;
+}
+
+.search-container {
+  float: right;
+}
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  background: #1D3557;
+  color: #ececec;
+  font-size: 17px;
+  border: none;
+  height: 45px;
+  width: 45px;
+}
+
+.search-container button:hover {
+  background: #ddd;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1200px) {
+  
+  .search-container input{
+    max-width: 70%;
+  }
+  
+  .search-container {
+    float: none;
+  }
+
+.search-container button {
+  float: none;
+  padding: 6px 10px;
+  background: #1D3557;
+  color: #ececec;
+  font-size: 17px;
+  border: none;
+  height: 45px;
+  width: 45px;
+}
+
+.search-container button:hover {
+  background: #ddd;
+}
+
+  .form-control {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+}
+  .products{
+  margin: 5% 0 5% 2%;
+}
+  
+  .btn {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  margin-left: 2%;
+  background-color: #1D3557;
+  color: #ececec;
+}
+
+}

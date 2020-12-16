@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- Optional CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <title>Products</title>
+
+</head>
+
+<body>
+  <!-- Header/ Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- <header class="container"> -->
+
+    <a class="navbar-brand ml-5" href="#"><img class="header-logo"
+    src="https://cdn.glitch.com/5c00dbf5-8a65-49b9-8cb8-bec934e5ff5f%2Flogo.png?v=1607127470981"
+                                               alt="logo-header"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsCollapse"
+            aria-controls="navbarsCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsCollapse">
+      <ul class="navbar-nav lists">
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="index.html">About </a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link active" href="products.html">Product <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-3">
+          <a class="nav-link" href="signup.html">Sign Up</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- </header> -->
+  </nav>
+
+  <section>
+  <div class="container-fluid">
+
+    <div class="row">
+      <!-- Column for products available -->
+      <div class="col-lg-5 col-md-10 mx-auto products">
+
+        <form class="form-products" action="https://formspree.io/f/xayldand" method="post">
+          <h2 class="mb-5">Add Products</h2>
+
+          <label for="category">Category:</label>
+          <select name="city" id="category" class="form-control mb-5" required>
+            <option value="p1">Category 1</option>
+            <option value="p2">Category 2</option>
+            <option value="p3">Category 3</option>
+            <option value="p4">Category 4</option>
+            <option value="" selected></option>
+          </select><br>
+
+          <label for="productName">Product:</label>
+          <input type="name" id="productName" class="form-control mb-5" placeholder="Product Name" required><br>
+
+          <label for="price">Price:</label>
+          <input type="text" id="price" class="form-control mb-5" placeholder="$1234" required><br>
+
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" class="form-control mb-5" placeholder="1234" required><br>
+
+          <button class="btn btn-lg btn-block mb-5" type="submit">Add Product</button>
+
+        </form>
+
+      </div>
+
+      <!-- Column for Analysis -->
+      <div class="col-md-10 col-lg-5 ml-md-auto analysis">
+
+        <!-- Search form -->
+        <div class="search-container">
+          <form action="#" method="get">
+            <input type="text" class="form-control mb-5" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <!-- Search button End -->
+      </div>
+      <!-- Column End -->
+    </div>
+
+  </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 footer-about">
+          <img class="logo-footer" src="https://cdn.glitch.com/5c00dbf5-8a65-49b9-8cb8-bec934e5ff5f%2Flogo.png?v=1607127470981" 
+               alt="logo-footer">
+          <p>
+            We want to enhance the productivity of small scale business across the country.
+          </p>
+          <p><a href="#">Our app</a></p>
+        </div>
+        <div class="col-md-4 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
+          <h3>Contact</h3>
+          <p><i class="fas fa-map-marker-alt"></i>Saadiyat Island</p>
+          <p><i class="fas fa-phone"></i>+971 11 111 1111</p>
+          <p><i class="fas fa-envelope"></i> Email: <a href="mailto:doa240@nyu.edu">doa240@nyu.edu</a></p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 footer-social wow fadeInUp">
+          <h3>Follow us</h3>
+          <p>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <p class="mt-5 mb-5 text-muted text-center">&copy; 2020-2021</p>
+  </footer>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
